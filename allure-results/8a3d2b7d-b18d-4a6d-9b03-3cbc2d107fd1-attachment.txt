@@ -1,0 +1,13 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @01-01-2025 16:48:55.0310 PM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.25". @01-01-2025 16:48:55.0537 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\mahmoud\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @01-01-2025 16:48:56.0104 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @01-01-2025 16:48:56.0107 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @01-01-2025 16:48:56.0108 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @01-01-2025 16:48:59.0977 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/loginData.json". @01-01-2025 16:48:59.0997 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @01-01-2025 16:49:00.0001 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/dataEmp.json". @01-01-2025 16:49:00.0004 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @01-01-2025 16:49:00.0007 PM
+[ReportManager] Target URL: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" @01-01-2025 16:49:00.0060 PM
+[ReportManager] Initial URL: "about:blank" @01-01-2025 16:49:00.0106 PM
+[ReportManager] Navigate to url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login". @01-01-2025 16:49:02.0685 PM

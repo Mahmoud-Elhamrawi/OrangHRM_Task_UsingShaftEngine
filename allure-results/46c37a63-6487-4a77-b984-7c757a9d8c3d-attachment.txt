@@ -1,0 +1,247 @@
+[INFO ] 2025-01-01 16:48:53.914 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:48:53.932 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-01-01 16:48:53.974 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-01-01 16:48:53.996 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-01-01 16:48:54.009 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-01-01 16:48:54.659 [main] Utils - [TestNG] Running:
+  C:\Users\mahmoud\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO ] 2025-01-01 16:48:54.753 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:48:54.881 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-01-01 16:48:55.234 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                       'TestCases.AutomationTaskTC.setUp'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:48:55.310 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-01-01 16:48:55.430 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-01-01 16:48:55.538 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.25".
+[INFO ] 2025-01-01 16:48:56.104 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\mahmoud\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-01-01 16:48:56.108 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-01-01 16:48:56.108 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-01-01 16:48:58.805 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-01-01 16:48:59.092 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[WARN ] 2025-01-01 16:48:59.968 [main] ReportManager - Jan 01, 2025 4:48:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-01-01 16:48:59.969 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+[DEBUG] 2025-01-01 16:48:59.974 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[INFO ] 2025-01-01 16:48:59.977 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[DEBUG] 2025-01-01 16:48:59.978 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-01-01 16:48:59.978 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-01-01 16:48:59.980 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-01-01 16:48:59.980 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-01-01 16:48:59.981 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.984 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.985 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.985 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.985 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.985 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.985 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> Accept: */*
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> Host: api.github.com
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2025-01-01 16:48:59.986 [] headers - >> Accept-Encoding: gzip,deflate
+[INFO ] 2025-01-01 16:48:59.997 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/loginData.json".
+[INFO ] 2025-01-01 16:49:00.001 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-01-01 16:49:00.005 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/dataEmp.json".
+[INFO ] 2025-01-01 16:49:00.007 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-01-01 16:49:00.060 [main] ReportManager - Target URL: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+[INFO ] 2025-01-01 16:49:00.106 [main] ReportManager - Initial URL: "about:blank"
+[DEBUG] 2025-01-01 16:49:00.253 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.257 [] wire -  << "Date: Wed, 01 Jan 2025 14:48:53 GMT[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.257 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.257 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.257 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.258 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.259 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "X-RateLimit-Reset: 1735746235[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.260 [] wire -  << "Content-Length: 1988[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.261 [] wire -  << "X-GitHub-Request-Id: D035:7CD91:1A69FB15:1B1A5DA9:677555D4[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.261 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-01-01 16:49:00.263 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-01-01 16:49:00.263 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-01-01 16:49:00.263 [] headers - << Date: Wed, 01 Jan 2025 14:48:53 GMT
+[DEBUG] 2025-01-01 16:49:00.263 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-01-01 16:49:00.263 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-01-01 16:49:00.264 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-01-01 16:49:00.265 [] headers - << Server: github.com
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-RateLimit-Reset: 1735746235
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << Content-Length: 1988
+[DEBUG] 2025-01-01 16:49:00.266 [] headers - << X-GitHub-Request-Id: D035:7CD91:1A69FB15:1B1A5DA9:677555D4
+[DEBUG] 2025-01-01 16:49:00.294 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-01-01 16:49:00.296 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Yko[0xe3][0xb6][0x12][0xfd]+[0x82][0x8b][0xe2][0x2][0x8b][0x95],[0xd9][0xf2]#[0x2][0x8a][0xde]$vw[0x8b]n[0xb2][0xed]6Eq[0xfb][0x80]AI[0xb4]DG[0x12][0xb5]$[0xe5][0xac][0x1b][0xec]"
+[DEBUG] 2025-01-01 16:49:00.297 [] wire -  << "[0xbf][0x87][0x94][0x1c][0xc7][0x86][0x9b]x#[0xed][0x87]8[0xb4]l[0xcf][0xc][0xe7]q[0xe6]px[0xdf][0xab]D[0xd6][0xb]z[0xa9]R[0xa5][0xc][0xfa]}R2'a*[0xad]B'[0xe2]y_[0xd0][0x92][0xcb][0xfe][0xaf])Y[0xaa][0xb7][0xbf][0xf4]}{[0xfe][0xc3][0xcd]b~[0xfd][0xe6][0xc7][0xeb]9>[0xca]([0x91]T[0xf6][0xbd][0xa9]7[0x19][0xb9]#[0xdf][0xed][0xbd][0xee][0x11])[0xa9][0x92][0x8b][0xee]d[0xf6]k[0x89][0x10]][0x95][0x19]'[0xf1][0x81][0xe8][0xfa][0xa1]|[0xb1][0xc9][0x8d][0xf8][0xfb][0xef][0xb][0x92][0xd3][0xd7][0x19][0x9]i[0xf6][0x19][0xba]R[0x95]g[0x7][0x9a][0x1e]9[0xe5]iw([0x92][0xf4][0xa7][0x8e][0xef][0xc][0xdc][0x81][0xef][0xe1][0xf][0xe2]X[0xdc][0xb][0x1e][0xbc][0x4]'U*[0xe5][0xa2][0x17][0xdc][0xf7]2[0x9e][0xb0][0x2][0xde][0xaf][0x85][0xdb]$R[0x8c][0x17][0xf2][0xcf][0x90][0xab][0xbf][0x9b][0x9f][0xf9][0xde][0xf4]l:[0x98][0xe]^[0xf7][\n]"
+[DEBUG] 2025-01-01 16:49:00.297 [] wire -  << "[0x1e][0xd3][0x85][0x96][0xd4][0xbb][0x9a]][0x8d][0xc9][0xcf][0xdc][0xeb][0xd9][0xdc][0x93]l[0xde][0xcf]~[0xfc]N[0xfb]~M[0x14][0x11][0x87][0xbe]7[0xf][0xb7][0xe][0xaa]$[0x15][0x11]/[0x14]-[0x94][0x9]/+[0xfa][0xde]h8[0x9e]~[0xbf][0xfe]N[0xdb][0x99][0x88]F[0x86]Q[0xa3]}[0xfe]Tnha[0xb2][0xbf]o[0xfa][0xb7][0xa3][0xb][0x18][0xff][0xed]h[0xf6][0xac][0x13]IY[0x1e][0xfe][0x18][0xbf]Y[0xf2],[0xe3]w[0x90]{[0xb8][0x8d][0xfd][0xb4]|Ru[0xff]A[0xc8][0x83]@V$[0xed][0x5]B[0xc8]}[0x9f][0xab][0x94][0xc2][0xc7][0xd8][0xba][0xce][0x93][0x84][0xc9][0xe7][0xb2][0xfd]iS[0x8d][0x80]{8Q*[0xc4]V[0x8b][0x94][0x8][0x97][0xa0][0x87]y~P[0x96]O[0xb]mD[0xc0][0xd8][0xbb][0x2]v[0xde][0x9b]*6[0xb2][0xab]PF[0x82][0x95]&[0xcb][0xda]8dO[0x10][0x4]s[0x91][0x90][0x82][0xfd]CZ[0xb][0x86] [0x9]y[0x6]v[0xda][0x18]h[0x4]@[0x10]]#[0xd5][I[0xaa]%[0xdc][0xf7]K[0xc1][0xd6]$[0xda]h7[\n]"
+[DEBUG] 2025-01-01 16:49:00.297 [] wire -  << "[0x1a]Q[0xb6]F[0x8c][0xda]K?[0x10][0x5][0xe1]jSR[0x14][0xdf][0x5]Wx[0xa3][0xe3][0xbc]X3z[0xb7]h[0x1e][0x97]U[0x98][0xb1]H[0x87][0x92])[0xba] q[0xae][0xe1]cI2I??F[0x88][0xf][0xf3][0xc5][0xed][0xdd][0xec][0xfd][0xe5][0x1b]z3[0x96][0xfe]O[0xde]o[0xf2]J[0x8b]&[0xc9]B[0xe3][0x1c][0xc4][0x1f][0x0][0x14]r.[0xa1]j[0x1]H[0xc8][0x99]b2[0xc5]7r[0x2][0xd1][0x90]y[0xf4][0xfb][0xb1]@Ch[0x14][0xbf][0xee][0x95][0x82]6[0xcd][0xe0][0xe1]Q$(Q[0xf0][0x10][0xc1][0xb7]z[0x1a][0x9]m[0xcf][0xb5][0x7][0xfe][0x8d]7[\n]"
+[DEBUG] 2025-01-01 16:49:00.298 [] wire -  << "\7[0xf0][0xfc]? [0xda][0xec]E[0xa6][0xff][0xfa]-[0xa8][0xbf][0xd5][0xe0][0xf0][0xe7][0xdf]z[0x3]"$[0xd9]!2[0x9f][0xde][0xb2][0x9a][0xdf][0x1f][0xc2][0xf3]?[0xac]l%[0xb6][0xf9][0xfd][0xa1][0xd8][0x90][0xc7][0x1b][0xec][0xfe][0x9b]o[0xac][0xdf]S[0xa2][0xfe]#[0xad][0xcb][0x94][0x14][0x9][0x8d][0xff]*^Y[0x1f](bG[0xad][0xaa][0x4][0xe4][0xc6][0xd4][\n]"
+[DEBUG] 2025-01-01 16:49:00.298 [] wire -  << "7[0xd6][0xaf]xJB[0xbc]0j[0xb1][0xc2][0xda][0xf6][0xe3][0xe7][0xda]NYeY[0xdf][0x9b][0xc][0x86]Z[0xea]E[0x95][0x97][0x16][0x82][0xe8]$[0x9c]'[0x19]u"[0xb1])[0x15]w[0x14]+n[0x3][0xfd]b-[0x5][0xcf]-[0xcf][0xf1]|[0xc7][0xb3][0x14][0xd7][0xab][0x91][0xe3][0x1a][0xed]1-i[0x11][0x13][0x80][0xf7]K[0xb4][0x8f][0x1f][0xb4][0xa3][0x80][0x9d][\r][0xc9][0xb3]@[0x16][0xe4][0x96][0xea]U[0xad]t[0xe0][0xc][0xb4][0xc6][0x81]3[0xec]@[0xdd]hO[0x1d])I[0x94]R[0x7][0xbd][0x14][0xcd]4[0xd1][0xff][0xfd]U`^m[0xcf][0x19][0xd8]H[0x8f][0x7][0x13][0x86][0xf5][0xbe]a[0x8c][0xdf][0xc5][0xbe][0x87][0xde][0xa9][0x86]D\[0xd0][0xaf]f[0x85]{[0xaa][0x15]2[[0xfa][0xab][0x81][0xcd][0xf2]r[0x17][0x95][0x8e]]28;[0xd5][0x98][0xaf][0x18][0x97][0xc1]T[0x1b]![0xa8],i[0xa4][0xac]%[0x17][0x11][0xbd]Lit{C?[0xa9][0xdf][0x89][0xbc][0x1][0xc4][0xc6][0x97][0x1c]m6R[0xd9][0xa6]}[0xf1][\r][0x7]Z][0xc][0xa2][0x15][0x82][0x10][0xdf]P[0xb4][0xf4][0xe][0x84][0x9a][0x8a]68[0x8a][0xac][0xb6][\n]"
+[DEBUG] 2025-01-01 16:49:00.298 [] wire -  << "zg[0xa9][0x8e]$[0xfb]{![0x92][0xe0][0xf1][0x5][0xab][0xf2][0xf4][0xa3][0xb3]][0x6][0xdb][0x85][0xbd][0x2]![0xac][0xf3][0x16][0x84]V[0xd7][0xc]j[0x18][0xab]NP[0xc3][0xdf]a[0x16][0xe3]NTEU[0x1e]R[0x11]l[0x17]v[0xc9]"[0xae][0xc9]*[0x1a][0x11][0x15][0xb5][0x11][0x13][0xc7][0x9b][0xd6]%[0x8c][0xd5]Y[0x17]%[0xec][0xef]J[0xf8][0xa8][0x11];[0x7]|[0x5][0xdd][0xbb][0xc2]=[0xaa][[0xc7][0x1b][0xa1]7[0xa0][0xdd][0xbd][0xf6][0xe1][0xd1]J[0xcd][0x9][0x18][0x93]Sf[0x15][0xb0]T[0x6][0xe6][0x9d][0x9d][0x94][0x89]]?[0xa9]m[0x19]:[0x3]g[0xa4]3A/[0xc6][0xed][0xf1]|8[0xd1][0x9]y[0x8d][0xc]G*[0xe6] lVs[0x10]B/[0x3]l[0xb6]n[0x8e]C[0x3][0x7][0x87][0xcd]1[0xa9][0x90][0xdb][0x81]ym[0xb6]5t[0x86][0x8e]k[0xaf][0xa0]R[0xef]M[0xbf][0xf3][0xcc][0xbb][0xd6][0xfd][0xd1][0xdf]oX[0x92][0x17]D[0xf3]9'[0xc2]^[0x5][0xc9][0x82][0xe6][0xbf][0xdd]0"[0xd4][0xbb]]{[0xfe][0xb1][0xd7]]GW[0x1d],s[0x9d]q'[0x99]o`@[0xe3]J[0xed]e[0xaa][0x8] [0xd3][0x9c][0xe9][0xdb][0xbb][0xdc][0xdf]g[0x4][0xab][0xaa]`*0[0xaf]v[0x88]l6)=r<[0xaf][0xde][0x91]Yy[0x1d][0xf8][0xd9]$[0xd2]o%[0xa0][0x98]Z[0x1f][0xe6][0xe7][0xb3][0xab][0xb9][0x93][0xc7]F[0xee][0xf9][0xdb][0xab][0xf9]l[0xf6]v[0xfe][0xee][0xfc][0xdd][0xff]^[0xc0]pF[0xc6]Y9_k,[0x6][0xfb]M,R[0xc4]X[0xf0]RGd[0xe7][0xc4][0xb6]<n[0xb4][0xc3]D[0xcd][0xa4]r[0x1e][0xdd]2[0xc5][0x83][0xe6][0xbf][0xbd][0xa3][0x11]p[0x19][0x92]U+[0xc7][0xaa][0x13]23[0xda][0xf]Y[0xc3][0xaa]N[0xc5][0x83][0xf1][0x16][0xf]&[0xed][0xc3]8:[0x99][0xdf][0x1d]#4M[0x97]2[0x1c][0xaf][0x83][0x9c][0x1a][0x99][0x9c]2[0xe0][0xa1]#[0xf2][0x5]d[0xb3]kCv([0xf6][0x8c]!{d[0xb3]k+v]C[0x1f]4[0x96]D**>[0xe5][0x99][0xb3]"[0xd1]-[0x80][0xcd][0xd1]4H[0x83][[0xd0]<[0xb0][0xb7][0xf][0xec]U|;[0xdd]r`o[0xb2]=[0xf][0xa0][0xa1]wp[0x2][0x19][0xef]s[0x9a]'[0xeb][0xa6][0xf1][0x88][0xa9][0x9b][0xe][0x12]d[0xbc]_[0xb2]O$[0xc8]c[0xc6][0xdb]qX[0xc6][0x86][0x82][0x92]8[0xb6]" [0xb8][0xb8][0xa0] [0xbd][0x14]<[0x17]pu[0x85][0xb9][0xa1][0xb5][0xcc][0xb6][0x90]EqZ[0x8f]jN[0xc9][0xb3][0xd8]| [0xad][0x1a]"[0xd3]<[0xfe][0x83][0x14][0x9c][0x17]/[0x1]Hc[0x80][0xe7][0xba]g[0xf6][0x12][0x94][0xb5][0x12][0xd4][0x16][0xf4]c[0x5][0x6]c[0xc3]*[0xdb]pp{IXf[0xeb][0x3][0xbd]"
+[DEBUG] 2025-01-01 16:49:00.299 [] wire -  << "[0xd0][0x83]";[0xa7]R[0x92][0x84][0xe2][0x89]M?E[0xd4][0x8c][0xa5]l*[0x4][0x17][0xdb][0x8f][0xda]7[0xa2][0xb1][0xc1][0x12][0xe3][0x98]J*t[0x9d]F[0xa9]>[0x15]`[0x9b]k[0x92][0xb1][0xd8][0xc2][0x98][0xb3][0x3]M[0x6]?[0xb7][0x1d][0x14]^.[0xad][0xdd][0x94][0xc5][0xf5][0xec]P7[0xd8][0xd6]\f|[0x14][0x8e][0x8e][0xa1][0xb4]f[0xae]1[0x8f][0xe][0x98][0x9b][0xe7][0xd6]][0x3][0xdc][0xc6][0xed]$[0xfb]w[0xa8]t[\n]"
+[DEBUG] 2025-01-01 16:49:00.299 [] wire -  << "[0x87][0xd5][0x9c][0x1d]=[0xb][0xd5][0xdf][0x89][0xf6][0xc9][0xce][0x1b]G[0xb5][0xef][0xb1][0xf7][0xae]u?[0xd1]/%[0xf2][0xc9][0x4][\r][0xb6][0xb][0xfb]1[0x97][0x1f]n[0x99][0x9c]^t[0x80]@[0x93]}[0x4][0xfa]w[0xb2]e[0x86]>[0x86]l[\r][0xda]w[0xe9][0x89][0xa9][0xf8][0xc3][0xc6]x,[0x13][0x1f][0x9c][0xb0][0x88]h[0xe8]lWNx[0xe6] w[0xfc]4[0xd9]uN[0xec][0x9f]4hIr'[0xa5][0xa4]>`[0x7][0xf]+[0xfb][0x8e][0x86][0xdb][0xa3][0xd4][0x8][0x13]1s[0x94][0x1a]9~[0x7]A[0xd9]o[0xcf][0xf9]F~[0xcc][0x2][0xf3][\n]"
+[DEBUG] 2025-01-01 16:49:00.299 [] wire -  << "[0xee]X[0x14][0x18]x[0x0]\W[0xb5]n[0xec][0xbd][0xae][0xc6]3G[0xf3][0xf0][0xd6][0xa7][0x9c][0xe9]~B<[0xd3][0x83][0xb7][0xb9][0x88]iB[0x7][0xaa]M[0xf0]5[\r][0xd7][0xb3][0x1d]=[0x2]-[0xd1][0xe2]B[0x96]1[0xb5][0xb1][0xee]p[0x9d]i[0xe9]^gZ[0xa3][0x15][0x9a][0xde]h[0x81][0xa3]h._[0xf7][0xbf][0xb8][0x12][0xfa][0x8d][0xa8][\n]"
+[DEBUG] 2025-01-01 16:49:00.299 [] wire -  << "[0xc5]0[0x96][0xed][0xa0][0x1f][0x8e]M [0xce][0xd1]w~[0xa6][0x2][\n]"
+[DEBUG] 2025-01-01 16:49:00.299 [] wire -  << "sRD[0xd4][0xba][0x11]`IZ[0x13]&[0xbc][0x1f][0xea][0xf6]xQ[0xb1],[0xd6][0xf3][\r][0xf4][0xa3][0xb][0xaa][0xc0][0xa6][0xac]y[0x11][0x97][0x9c][0xe1][0x18]|^[0x90]l#Y=M[0xfa]i#[0x18].[0xc7][0xe4]5Zf[0xfa][0x82][0xe]=4x[0xb5]d[0x9f][0xac][0xa6]3X[0x9][0xc5]`[0xc5][0xdc][0xd9][0xb4][0xef]KS[0x83]Ao([0xcf][0xb8]f[0x17][0x10][0x19][0x91]R[0x9a]]a[0xd6][0x9d]Y3[0xba]fp[0x0][0x9e][0xbf]#y[0x18][0x13]=%3Z[0xd3][0x95][0xc][0xf5][0xe8][0x16][0xfb][0xfe][0xf2][0xb1][0xf7][0xf4][0xd4]c[0xa6][0x19]>[0x1b][0xe4][0xeb]`[0xfe]<5d[0xf3][0xf1][0x15]J[0x7][0xfe]C'[0xfb][0xab][0xc0]][0x81][0x1e][0x83]\b[0xea]%XX[0xa1]X[0xa5]V[0xb5]z[0xcd][0xf5][0x8d][0x1][0xae]![0x19][0x92][0x86][0x9][0xb8]Q[0xf][0xc9][0xcc][0xd7][0xb5][0xdb][0xbf][0xdc][0x89][0xf5][0xd9][0xf6]q [0xba][0xd6][0xa0][0xc3][0x84]}[0xbc][0xfa][0x1][0x97][0x15][0xcd]-[0x8]B[0xfe][0xea]Up[0xf2]5[0x87][0xa9]hAq[0xc5][0x82][0x99][0x13][0xae][0x93][0xdc][0xe9][0xe0][0xcc]q[0x9c][0x83]k,=;2W[0x9b][0x11]G%[0xf7][0x82][0xf1][0xe7][0xff][0x3] [0xcb]][0x1b][0xdf] [0x0][0x0]"
+[DEBUG] 2025-01-01 16:49:00.300 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-01-01 16:49:00.513 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@47c8cfd6
+[DEBUG] 2025-01-01 16:49:00.513 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2025-01-01 16:49:02.294 [] ReportManager - You're using the latest engine version "8.4.20241024". 👍
+[INFO ] 2025-01-01 16:49:02.686 [main] ReportManager - Navigate to url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+[INFO ] 2025-01-01 16:49:02.693 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2025-01-01 16:49:02.882 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                             Test Method: 'TestCases.AutomationTaskTC.assessmentTC'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:49:03.348 [main] ReportManager - Type "Username"
+[INFO ] 2025-01-01 16:49:03.474 [main] ReportManager - Type "Password"
+[INFO ] 2025-01-01 16:49:03.597 [main] ReportManager - Click "Login"
+[INFO ] 2025-01-01 16:49:03.630 [main] ReportManager - Assert that the browser URL is equal to "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index".
+[DEBUG] 2025-01-01 16:49:04.765 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+[DEBUG] 2025-01-01 16:49:05.068 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:53301<->140.82.121.5:443 closed
+[INFO ] 2025-01-01 16:49:05.938 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-05-936_01012025'
+[INFO ] 2025-01-01 16:49:05.940 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+[INFO ] 2025-01-01 16:49:05.941 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:05.945 [main] ReportManager - Assert that the element located by "By.cssSelector: span[class="oxd-topbar-header-breadcrumb"] h6" text is equal to "Dashboard".
+[DEBUG] 2025-01-01 16:49:06.099 [main] ReportManager - Expected "Dashboard", and actual "Dashboard"
+[INFO ] 2025-01-01 16:49:07.182 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-07-178_01012025'
+[INFO ] 2025-01-01 16:49:07.183 [main] ReportManager - Expected "Dashboard", and actual "Dashboard"
+[INFO ] 2025-01-01 16:49:07.185 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:07.897 [main] ReportManager - Click "By.xpath: (//li[@class="oxd-main-menu-item-wrapper"])[1]"
+[INFO ] 2025-01-01 16:49:08.709 [main] ReportManager - Get text "(6) Records Found" from "By.xpath: //div[contains(@class,"orangehrm-horizontal-padding")] /span".
+[INFO ] 2025-01-01 16:49:08.710 [main] ReportManager - current : 6
+[INFO ] 2025-01-01 16:49:08.711 [main] ReportManager - Assert that the browser URL is equal to "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers".
+[DEBUG] 2025-01-01 16:49:08.721 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+[INFO ] 2025-01-01 16:49:09.050 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-09-047_01012025'
+[INFO ] 2025-01-01 16:49:09.050 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+[INFO ] 2025-01-01 16:49:09.050 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:09.594 [main] ReportManager - Click " Add"
+[INFO ] 2025-01-01 16:49:09.596 [main] ReportManager - Assert that the browser URL is equal to "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser".
+[DEBUG] 2025-01-01 16:49:09.607 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser"
+[INFO ] 2025-01-01 16:49:09.811 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-09-809_01012025'
+[INFO ] 2025-01-01 16:49:09.811 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser"
+[INFO ] 2025-01-01 16:49:09.811 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:10.039 [main] ReportManager - Click "By.xpath: (//div[@class="oxd-select-text--after"])[1] "
+[INFO ] 2025-01-01 16:49:10.119 [main] ReportManager - Click "Admin"
+[INFO ] 2025-01-01 16:49:10.179 [main] ReportManager - Get text "dasd asd" from "By.cssSelector: p[class="oxd-userdropdown-name"]".
+[INFO ] 2025-01-01 16:49:10.281 [main] ReportManager - Type "Type for hints..."
+[INFO ] 2025-01-01 16:49:11.099 [main] ReportManager - Explicit wait until: "presence of any elements located by By.cssSelector: div[class="oxd-autocomplete-option"] ".
+[INFO ] 2025-01-01 16:49:11.170 [main] ReportManager - Click "Searching...."
+[INFO ] 2025-01-01 16:49:11.252 [main] ReportManager - Click "By.xpath: (//div[@class="oxd-select-text--after"])[2] "
+[INFO ] 2025-01-01 16:49:11.337 [main] ReportManager - Click "Enabled"
+[INFO ] 2025-01-01 16:49:11.451 [main] ReportManager - Type "By.xpath: (//input[@class="oxd-input oxd-input--active"])[2]"
+[INFO ] 2025-01-01 16:49:11.563 [main] ReportManager - Type "By.xpath: (//input[@type="password"])[1]"
+[INFO ] 2025-01-01 16:49:11.676 [main] ReportManager - Type "By.xpath: (//input[@type="password"])[2]"
+[INFO ] 2025-01-01 16:49:11.748 [main] ReportManager - Click "Save"
+[INFO ] 2025-01-01 16:49:12.117 [main] ReportManager - Capture full screenshot
+[INFO ] 2025-01-01 16:49:12.119 [main] ReportManager - Successfully created attachment 'Screenshot - captureScreenshot_16-49-12-116_01012025'
+[INFO ] 2025-01-01 16:49:12.121 [main] ReportManager - Assert that the element located by "By.id: oxd-toaster_1" exists.
+[DEBUG] 2025-01-01 16:49:12.170 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:12.547 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-12-545_01012025'
+[INFO ] 2025-01-01 16:49:12.547 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:12.548 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:22.233 [main] ReportManager - Get text "(7) Records Found" from "By.xpath: //div[contains(@class,"orangehrm-horizontal-padding")] /span".
+[INFO ] 2025-01-01 16:49:22.234 [main] ReportManager - after : 7
+[INFO ] 2025-01-01 16:49:22.235 [main] ReportManager - Assert that the browser URL is equal to "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers".
+[DEBUG] 2025-01-01 16:49:22.240 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+[INFO ] 2025-01-01 16:49:22.540 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-22-538_01012025'
+[INFO ] 2025-01-01 16:49:22.540 [main] ReportManager - Expected "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers", and actual "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+[INFO ] 2025-01-01 16:49:22.540 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:22.542 [main] ReportManager - Assert that "7" is equal to "7".
+[DEBUG] 2025-01-01 16:49:22.543 [main] ReportManager - Expected "7", and actual "7"
+[INFO ] 2025-01-01 16:49:22.543 [main] ReportManager - Expected "7", and actual "7"
+[INFO ] 2025-01-01 16:49:22.544 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:22.632 [main] ReportManager - Type "By.xpath: (//label[.='Username']//following::input)[1]"
+[INFO ] 2025-01-01 16:49:22.683 [main] ReportManager - Click "Search"
+[INFO ] 2025-01-01 16:49:22.993 [main] ReportManager - Get text "(1) Record Found" from "By.xpath: //div[contains(@class,"orangehrm-horizontal-padding")] /span".
+[INFO ] 2025-01-01 16:49:22.994 [main] ReportManager - Assert that "1" is equal to "1".
+[DEBUG] 2025-01-01 16:49:22.995 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2025-01-01 16:49:22.995 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2025-01-01 16:49:22.996 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:23.050 [main] ReportManager - Click ""
+[INFO ] 2025-01-01 16:49:23.093 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //div[contains(@class,'orangehrm-dialog-popup')]".
+[INFO ] 2025-01-01 16:49:23.157 [main] ReportManager - Click " Yes, Delete"
+[INFO ] 2025-01-01 16:49:23.158 [main] ReportManager - Assert that the element located by "By.xpath: //div[contains(@class,'oxd-toast--success')]" exists.
+[DEBUG] 2025-01-01 16:49:23.576 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:23.938 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-23-936_01012025'
+[INFO ] 2025-01-01 16:49:23.938 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:23.938 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:23.939 [main] ReportManager - Assert that the element located by "By.xpath: //p[contains(@class,'oxd-text--toast-message')]" exists.
+[DEBUG] 2025-01-01 16:49:23.975 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:24.309 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_16-49-24-308_01012025'
+[INFO ] 2025-01-01 16:49:24.310 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2025-01-01 16:49:24.310 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:24.685 [main] ReportManager - Perform navigation action "Navigate REFRESH to".
+[INFO ] 2025-01-01 16:49:24.686 [main] ReportManager - Assert that "6" is equal to "6".
+[DEBUG] 2025-01-01 16:49:24.686 [main] ReportManager - Expected "6", and actual "6"
+[INFO ] 2025-01-01 16:49:24.686 [main] ReportManager - Expected "6", and actual "6"
+[INFO ] 2025-01-01 16:49:24.686 [main] ReportManager - Assertion passed
+[INFO ] 2025-01-01 16:49:24.691 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: assessmentTC'
+[INFO ] 2025-01-01 16:49:24.691 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Finished Execution of Test Method: 'TestCases.AutomationTaskTC.assessmentTC'                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:49:24.711 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                      'TestCases.AutomationTaskTC.tearDown'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:49:25.081 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2025-01-01 16:49:25.083 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2025-01-01 16:49:25.089 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-01-01 16:49:25.090 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
